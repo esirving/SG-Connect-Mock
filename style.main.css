@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html*, html body*{
+	box-sizing: border-box;
+}
+
+.container::-webkit-scrollbar { width: 0 !important }
+
+
+
+/* TEXT STYLES*/
+
+.recent{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #000;
+	padding-top: 0px;
+	margin-left: 15px;
+}
+
+.featured{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #000;
+	padding-top: 0px;
+	margin-left: 15px;
+}
+
+/* TEXT STYLES*/
+
+.wrapper {
+    height: 100px;
+}
+
+
+
+.wrapper-currency {
+    height: 75px;
+}
+
+
+.container{
+	display: flex;
+	overflow-x: auto;
+}
+
+
+.bttm-nav{
+	display: flex;
+}
+
+.flex-container{
+	flex: 1;
+	width: 375px;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	position: fixed;
+	margin: auto;
+
+}
+
+.flex-item{
+	flex: 1;
+	height: 25px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 120px;
+	color: #545454;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.flex-container2{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 0px 10px 0px;
+
+}
+
+.flex-item2{
+	flex-direction: row;
+	height: 65px;
+	width: 65px;
+	color: #545454;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.flex-container3{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 0px 10px 0px;
+
+}
+
+.flex-item3{
+	flex-direction: row;
+	height: 150px;
+	width: 200px;
+	color: #545454;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.flex-container4{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 0px 10px 0px;
+
+}
+
+.flex-item4{
+	flex-direction: row;
+	height: 75px;
+	width: 100px;
+	color: #545454;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.flex-container5{
+	flex: 1;
+	background: #333;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+.flex-item5{
+	flex-direction: row;
+	height: 70px;
+	width: 2px;
+	color: #545454;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.brand-bar-flex-container{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo-flex-item{
+	flex: 1;
+	height: 30px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.brand-bar{
+	width: 375px;
+	height: 80px;
+	background: #333;
+	position: fixed;
+}
+
+.currency{
+	background: #a7a7a7;
+	border-radius: 200px;
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.recent-play{
+	background: #a7a7a7;
+	border-radius: 100px;
+}
+
+.game-tile{
+	background: #a7a7a7;
+	border-radius: 10px;
+}
+
+.filler{
+	background: #fff;
+	border-radius: 10px;
+}
+
+
+
+.footer {
+    background: #333;
+    position: sticky;
+    bottom: 0;
+    height: 75px;
+    width: 400px;
+    justify-content: center;
+}
+
+
+
+
