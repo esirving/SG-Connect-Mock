@@ -250,7 +250,7 @@ html*, html body*{
 
 /* LINK SYLES*/
 
-a:link {
+a :link {
   color: #000; 
   background-color: transparent; 
   text-decoration: none;
@@ -274,4 +274,27 @@ a:active {
   text-decoration: underline;
 }
 
+a.back:link {
+  color: #fff; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a.back:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.back:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.back:active {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
