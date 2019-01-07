@@ -271,7 +271,7 @@ a:hover {
 a:active {
   color: #000;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.back:link {
@@ -295,6 +295,6 @@ a.back:hover {
 a.back:active {
   color: #fff;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
